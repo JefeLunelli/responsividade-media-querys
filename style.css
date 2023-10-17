@@ -1,0 +1,52 @@
+body {
+    background-color: #ccc;
+}
+
+.cabecalho {
+    padding: 10px 5px;
+    background-color: green;
+}
+
+.cabecalho .logo {
+    display: inline-block;
+}
+
+.cabecalho nav {
+    float: right;
+}
+
+.cabecalho nav li {
+    display: inline-block;
+    padding: 15px;
+}
+
+main {
+    background-color: white;
+    padding: 20px;
+    min-width: 320px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.image img {
+    width: 100%;
+}
+
+@media (max-width: 576px) {
+
+    .logo .cabecalho {
+        text-align: center;
+    }
+
+    .cabecalho {
+        text-align: center;
+    }
+
+    .cabecalho nav {
+        float: none;
+    }
+
+    .cabecalho nav li {
+        display: block;
+    }
+}

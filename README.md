@@ -1,4 +1,3 @@
-# responsividade-media-querys!
 
 <h1>A importância do media query</h1>
 
